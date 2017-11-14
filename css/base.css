@@ -1,0 +1,63 @@
+
+/*html{font-size:10px}
+@media screen and (min-width:321px) and (max-width:375px){html{font-size:11px}}
+@media screen and (min-width:376px) and (max-width:414px){html{font-size:12px}}
+@media screen and (min-width:415px) and (max-width:639px){html{font-size:15px}}
+@media screen and (min-width:640px) and (max-width:719px){html{font-size:20px}}
+@media screen and (min-width:720px) and (max-width:749px){html{font-size:22.5px}}
+@media screen and (min-width:750px) and (max-width:799px){html{font-size:23.5px}}
+@media screen and (min-width:800px){html{font-size:25px}}*/
+
+*,::before,::after{
+    margin:0;
+    padding:0;
+    /*在移动端特殊的设置*/
+    /*清除点击高亮效果*/
+    /*-webkit-tap-highlight-color: transparent;*/
+    /*设置所有的盒子的宽度以边框开始计算*/
+    -webkit-box-sizing: border-box;
+    /*要兼容 webkit 浏览器内核厂商 这种情况一般是老的移动端浏览器*/
+    box-sizing: border-box;
+    background-origin: content-box;
+}
+body{
+    /*font-size:14px;*/
+    color:#333;
+    font-family: "MicroSoft YaHei", "sans-serif";
+    /*font-family:"华文细黑","regular";*/
+}
+
+input,textarea{
+/*    border: none;
+    outline:none;
+    resize: none;
+    -webkit-appearance: none;
+    appearance:none;*/
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+    color:#333;
+}
+a:hover{
+    color:#333;
+}
+a:link{
+    text-decoration: none;
+}
+.f_left{
+    float:left;
+}
+.f_right{
+    float:right;
+}
+.clearfix::after,.clearfix::before{
+    content:"";
+    height: 0;
+    line-height: 0;
+    clear:both;
+    display: block;
+    visibility:hidden;
+}

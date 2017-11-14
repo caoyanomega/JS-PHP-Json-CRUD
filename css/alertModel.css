@@ -1,0 +1,16 @@
+#alertModel{
+	position:fixed;
+	top:50%;
+	left:50%;
+	z-index:999999;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+	text-align:center;
+	background:#5F5F5F;
+	-webkit-background:#5F5F5F;
+	color:#fff;
+	font-size:1rem;
+	line-height:1rem;
+	padding:0.5rem;
+	border-radius:0.25rem;
+}

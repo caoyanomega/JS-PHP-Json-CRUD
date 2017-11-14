@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    
+    <!-- 禁止页面缓存 -->
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache"> 
+    <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="0">
+
+    <title>Bootstrap 101 Template</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layerModel.css">
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/loadingImg.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/jq.js"></script>
+    <script src="js/layerModel.js"></script>
+    <script src="js/loadingImg.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+
+    <script>
+    </script>
+
+</head>
+<body>
+    <center>
+        <input type="button" value="点我开始ajax测试请求" class="buttonTest">
+    </center>
+    <h2>增删改查</h2>
+    
+    <!-- 下面开始业务代码 -->
+    <div class="myDiv">
+    
+    <div class="operator">  
+        <input type="button" value="批量新增" class="add">
+        <input type="button" value="批量修改" class="update">
+        <input type="button" value="批量删除" class="delete">
+        <input type="text" class="selectValue" value="" placeholder="请输入查询内容(模糊查询)">
+        <input type="button" value="点击查询" class="select">
+        <input type="button" value="点击刷新" class="refresh">
+    </div>
+    <div>
+    <!-- 默认进来自动初始化数据 -->
+        <input type="button" value="手动初始化数据：自定义字段" class="init">
+    </div>
+
+        <table class="myTable" border="1">
+            <caption>增删改查</caption>
+            <thead class="myThead">
+
+            </thead>
+
+            <tbody class="myTbody">
+
+            </tbody>
+
+            <tfoot>
+                
+            </tfoot>
+        </table>
+
+        <div class="pageInfo">
+            总记录数：<span class="rowsSum" >1</span>&nbsp;&nbsp;
+            每页记录数:
+            <select name="" class="pageNum">
+                <option value="5">5</option>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="50">50</option>
+            </select>
+            &nbsp;&nbsp;
+           
+            <br>
+
+            <input type="button" value="首页"  class="firstPage">
+            <input type="button" value="上一页" class="prev" disabled>
+            <span>
+ 第<span class="pageNow">1</span>/<span class="pagesSum">1</span>页
+            </span>
+            <input type="button" value="下一页" class="next">
+            <input type="button" value="尾页" class="lastPage">
+            <br>
+            <input type="button" value="Go" class="goPageButton">
+            <input type="text" class="goPage">页
+        </div>
+    </div>
+    <!-- 业务代码结束 -->    
+    
+
+    <!-- 增加修改用户Div -->
+    <div class="addAndUpdateBgDiv clearfix">
+        <div class="containerDiv clearfix">
+          <!-- 关闭按钮 -->
+          <a href="js:;" class="addAndUpdateBgDivClose">X</a>
+
+            <div class="addDiv clearfix" >
+                <h3>批量新增用户</h3>
+                <div>
+                    <input type="button" value="点我添加一条数据" class="addOneButton">
+                    <input class="addMoreValue" type="text" value="" class="addMoreButton">
+                    <input type="button" value="点我批量新增" class="addOneButtonMore">
+                    <script>
+                    </script>
+                </div>
+                <table class="myTableAdd" border="1">
+                    <thead class="myTheadAdd">
+
+                    </thead>
+
+                    <tbody class="myTbodyAdd">
+
+                    </tbody>
+
+                    <tfoot>
+                        
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="updateDiv clearfix" >
+                <h3>批量修改用户</h3>
+                <table class="myTableUpdate" border="1">
+                    <thead class="myTheadUpdate">
+
+                    </thead>
+
+                    <tbody class="myTbodyUpdate">
+
+                    </tbody>
+
+                    <tfoot>
+                        
+                    </tfoot>
+                </table>
+            </div>
+
+            <div class="containerDivBottom">
+                <input type="button" class="addAndUpdateBgDivCancel" value="取消"><input type="button" class="addAndUpdateBgDivSave" value="保存">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,206 @@
+*{
+	color:#333333;
+	margin:0 auto;
+	text-align:center;
+}
+html{
+	background-color:#F0F0F0;
+}
+body{
+	background-color:#F0F0F0;
+}
+button{
+	background-color:#fff;
+}
+h2{
+	background-color:#fff;
+}
+.myDiv{
+	background-color:#fff;
+}
+.myTable caption{
+	margin:0 auto;
+	text-align: center;
+}
+.myTable{
+	width: 90%;
+	border:1px solid #000;
+	text-align: center;
+}
+.myTable tr:hover{
+	background-color:#F0F0F0;
+}
+.myTable tr td{
+	text-align: center;
+	font-size:1rem;
+	height: 2rem;
+	line-height: 2rem;
+	vertical-align: middle;
+}
+.myTable .myThead tr td{
+	background-color: #fff;
+	color:#32C5D2;
+	font-weight: 900;
+}
+.myTable tr th{
+	text-align: center;
+}
+input[type="text"]{
+	background-color: #fff;
+	color:#32C5D2;
+	border-radius: 0.25rem;
+	border: 1px solid black;
+	padding:0.25rem;
+	font-weight: 900;
+}
+input[type="button"]{
+	background-color: #fff;
+	color:#32C5D2;
+	border-radius: 0.25rem;
+	border: 1px solid black;
+	padding:0.25rem;
+	font-weight: 900;
+}
+input[type='button']:hover{
+	background-color: #32C5D2;
+	color:#fff;
+}
+input.delete{
+	background-color: #E7505A;
+	color:#fff;
+}
+input.delete:hover{
+	background-color:red;
+	color:#fff;
+}
+select{
+	border-radius: 0.25rem;
+	background-color: #32C5D2;
+	color:#fff;
+	padding:0.5rem;
+}
+input[type='checkbox']{
+	/*垂直对其文本的下标*/
+	vertical-align:sub;
+}
+.pageNow,.pagesSum,.rowsSum{
+	color:#32C5D2;
+	font-weight: 900;
+}
+
+/*新增和修改弹出模态框开始*/
+.addAndUpdateBgDiv{
+	position: fixed;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 100%;
+	z-index: 10000;
+	display: none;
+	background: rgba(0, 0, 0, .3);
+}
+.containerDiv{
+	position: absolute;
+	left:50%;
+	top:10%;
+	width:90%;
+	max-height: 80%;
+	overflow:scroll;
+	transform:translateX(-50%);
+	border:1px solid blue;
+	background:#fff;
+}
+.addDiv{
+	display:none;
+}
+.updateDiv{
+	display: none;
+}
+.containerDivBottom{
+	margin-top: 1rem;
+}
+.addAndUpdateBgDivClose{
+	position: absolute;
+	right:0;
+	top:0;
+	height: 2rem;
+	width: 2rem;
+	font-size:2rem;
+	line-height: 2rem;
+	border:1px solid black;
+}
+.addAndUpdateBgDivClose:hover{
+	text-decoration: none;
+}
+.addAndUpdateBgDivCancel,.addAndUpdateBgDivSave{
+	float:left;
+	width: 50%;
+}
+.myTableAdd caption{
+	margin:0 auto;
+	text-align: center;
+}
+.myTableAdd{
+	width: 100%;
+	border:1px solid #000;
+	text-align: center;
+	margin-top:1rem;
+}
+.myTableAdd tr:hover{
+	background-color:#F0F0F0;
+}
+.myTableAdd tr td{
+	text-align: center;
+	font-size:1rem;
+	height: 1rem;
+	line-height: 1rem;
+	vertical-align: middle;
+	padding:-1rem;
+}
+.myTableAdd .myTheadAdd tr td{
+	background-color: #fff;
+	color:#32C5D2;
+	font-weight: 900;
+}
+.myTableAdd tr th{
+	text-align: center;
+}
+.myTableAdd .popInputData{
+	width: 100%;
+	border:none;
+
+}
+
+
+/* myTableUpdate */
+.myTableUpdate{
+	width: 100%;
+	border:1px solid #000;
+	text-align: center;
+	margin-top:1rem;
+}
+.myTableUpdate tr:hover{
+	background-color:#F0F0F0;
+}
+.myTableUpdate tr td{
+	text-align: center;
+	font-size:1rem;
+	height: 1rem;
+	line-height: 1rem;
+	vertical-align: middle;
+	padding:-1rem;
+}
+.myTableUpdate .myTheadUpdate tr td{
+	background-color: #fff;
+	color:#32C5D2;
+	font-weight: 900;
+}
+.myTableUpdate tr th{
+	text-align: center;
+}
+.myTableUpdate .popInputData{
+	width: 100%;
+	border:none;
+}
+
+/*新增和修改弹出模态框结束*/

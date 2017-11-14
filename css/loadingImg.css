@@ -1,0 +1,21 @@
+	.loadingDiv{
+		position: fixed;
+		left:0;
+		top:0;
+		z-index: 9999;
+		width: 100%;
+		height: 100%;
+	}
+	.loadingDiv .loadingImg{
+		position: absolute;
+		left:50%;
+		top:50%;
+		transform: translateX(-50%);
+		-webkit-transform:translateX(-50%);
+		-moz-transform:translateX(-50%);
+		-ms-transform:translateX(-50%);
+		-o-transform:translateX(-50%);
+		z-index: 10000;
+		width: 5rem;
+		height: 5rem;
+	}

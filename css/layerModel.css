@@ -1,0 +1,201 @@
+
+/*alertModel开始 */
+.alertModel{
+	position:fixed;
+	top:50%;
+	left:50%;
+	z-index:99999999;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+	text-align:center;
+	background:#5F5F5F;
+	-webkit-background:#5F5F5F;
+	color:#fff;
+	font-size:1rem;
+	line-height:1rem;
+	padding:0.5rem;
+	border-radius:0.25rem;
+}
+/*alertModel结束 */
+
+/*alertModel2开始 */
+/* 半透明大背景盒子 */
+.alertModel2Bg{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:1000;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity:0.7;
+	text-align:center;
+	background:#000;
+	color:#fff;
+	font-size:1rem;
+	line-height:1rem;
+}
+/* 中间会话框div */
+.alertModel2Dialog{
+	position:absolute;
+	box-sizing:border-box;
+	left:50%;
+	top:50%;
+	width:80%;
+	padding:2rem 1rem 1rem;
+	transform:translate(-50%,-50%);
+	z-index:1001;
+	text-align:center;
+	background:#FFFFFF;
+	color:#FFFFF;
+	font-size:1rem;
+	border-radius:0.25rem;
+	line-height:1rem;"
+}
+/*要提示信息div*/
+.alertModle2Disc{
+	position:static;
+	box-sizing:border-box;
+	width:100%;
+	padding:0.5rem;
+	margin:0 auto;
+	z-index:1002;
+	text-align:center;
+	color:#000;
+	font-size:1rem;
+	word-break:break-all;
+	border-radius:0.25rem;
+	line-height:1rem;
+}
+/* 按钮div */
+.alertModel2Btn{
+	position:static;
+	display:inline-block;
+	box-sizing:border-box;
+	margin:0 auto;
+	margin-top:10%;
+	padding:0.5rem 1rem;
+	z-index:1002;
+	text-align:center;
+	background:#0397DD;
+	color:#fff;
+	font-size:1rem;
+	font-weight:300;
+	border-radius:0.25rem;
+	line-height:1rem;
+}
+/*alertModel2结束 */
+
+/*confirmModel开始*/
+.confirmModelBg{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	z-index:1000;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	opacity:0.7;
+	text-align:center;
+	background:#000;
+	color:#fff;
+	font-size:1rem;
+	line-height:1rem;
+}
+/* 中间会话框div */
+.confirmModelDialog{
+	position:absolute;
+	box-sizing:border-box;
+	left:50%;
+	top:50%;
+	width:60%;
+	transform:translate(-50%,-50%);
+	z-index:1001;
+	text-align:center;
+	background:#FFFFFF;
+	color:#FFFFF;
+	font-size:1rem;
+	border-radius:0.25rem;
+	line-height:1rem;
+}
+/* top提示 */
+.confirmModelTop{
+	box-sizing:border-box;
+	text-align:center;
+	margin:0 auto;
+	background:#FFFFFF;
+	color:#000;
+	height: 2rem;
+	color:#FFFFF;
+	font-size:1rem;
+	border-radius:0.25rem 0.25rem 0 0;
+	border-width: 0 0 0.01rem 0;
+	border-style: solid;
+	border-color:#0397DD;
+	line-height:2rem;
+}
+/*要提示信息div*/
+.confirmModleDisc{
+	position:static;
+	box-sizing:border-box;
+	width:100%;
+	padding:0.5rem;
+	margin:0 auto;
+	text-align:center;
+	color:#000;
+	font-size:1rem;
+	word-break:break-all;
+	border-radius:0.25rem;
+	line-height:1rem;
+}
+/* 按钮divBottom*/
+.confirmModelBottom{
+	position:static;
+	box-sizing:border-box;
+	margin:0 auto;
+	margin-top:5%;
+	text-align:center;
+	background:#0397DD;
+	color:#fff;
+	font-size:1rem;
+	font-weight:300;
+	border-radius:0.25rem;
+	line-height:1rem;
+}
+/* 按钮divYes*/
+.confirmModelBottomYes{
+	position:static;
+	box-sizing:border-box;
+	width:50%;
+	height: 100%;
+	padding:0.5rem 1rem;
+	text-align:center;
+	background:#0397DD;
+	color:#fff;
+	font-size:1rem;
+	font-weight:300;
+	border-radius:0 0 0 0.25rem;
+	border-width: 0 0.01rem 0 0;
+	line-height:1rem;
+	border-color:black;
+}
+/* 按钮divNo*/
+.confirmModelBottomNo{
+	position:static;
+	box-sizing:border-box;
+	padding:0.5rem 1rem;
+	width:50%;
+	height: 100%;
+	text-align:center;
+	background:#0397DD;
+	color:#fff;
+	font-size:1rem;
+	font-weight:300;
+	border-radius:0 0 0.25rem 0;
+	border-width: 0 0 0 0.01rem;
+	border-color:black;
+	line-height:100%;
+}
+/*confirmModel结束*/
